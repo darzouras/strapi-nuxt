@@ -1,0 +1,10 @@
+@import "utils/reset.scss";
+@import "utils/variables.scss";
+@import "utils/typography.scss";
+@import "utils/layout.scss";
+
+body {
+    font-family: $inconsolata;
+    background: $lightest;
+    color: $darkest;
+}

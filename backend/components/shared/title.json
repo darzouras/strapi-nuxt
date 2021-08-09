@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_titles",
+  "info": {
+    "name": "Title",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Level": {
+      "type": "integer",
+      "min": 2,
+      "max": 5,
+      "default": 2
+    },
+    "Style": {
+      "type": "enumeration",
+      "enum": [
+        "headline",
+        "subheader",
+        "kicker",
+        "paragraph"
+      ]
+    }
+  }
+}

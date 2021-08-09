@@ -1,8 +1,10 @@
 <template>
   <div>
     <div class="uk-section">
+      {{ homepage }}
       <div class="uk-container uk-container-large">
         <h1>{{ homepage.hero.title }}</h1>
+        <div v-html="homepage.hero.intro" />
         <Articles :articles="articles" />
       </div>
     </div>

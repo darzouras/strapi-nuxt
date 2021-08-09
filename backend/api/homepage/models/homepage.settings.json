@@ -2,11 +2,13 @@
   "kind": "singleType",
   "collectionName": "homepages",
   "info": {
-    "name": "Homepage"
+    "name": "Homepage",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "seo": {
@@ -19,6 +21,14 @@
       "repeatable": false,
       "component": "sections.hero",
       "required": true
+    },
+    "Components": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.image",
+        "shared.text",
+        "shared.title"
+      ]
     }
   }
 }

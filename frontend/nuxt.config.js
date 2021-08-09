@@ -13,7 +13,7 @@ export default {
     link: [
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Staatliches",
+        href: "https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap",
       },
     ],
   },
@@ -21,11 +21,8 @@ export default {
    ** Global CSS
    */
   css: [
-    "uikit/dist/css/uikit.min.css",
-    "uikit/dist/css/uikit.css",
-    "@assets/css/main.css",
+    "@assets/css/main.scss"
   ],
-  plugins: [{ src: "~/plugins/uikit.js", ssr: false }],
   modules: ["@nuxtjs/markdownit", "@nuxtjs/strapi"],
   strapi: {
     url: strapiBaseUri,
